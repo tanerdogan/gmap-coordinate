@@ -1,7 +1,7 @@
 GMap API Location Sample
 ---------------
 
-* It's just a sample.
+*  It's just a sample.
 - `` initilize(_lat_, _lon_); `` is iniztializing with parameter coords
 - ``  getNavGeoLocation(); `` is initializing with currenct location
 
