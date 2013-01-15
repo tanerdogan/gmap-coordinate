@@ -2,8 +2,8 @@ GMap API Location Sample
 ---------------
 
 *  It's just a sample.
-- `` initilize(_lat_, _lon_); `` is iniztializing with parameter coords
-- ``  getNavGeoLocation(); `` is initializing with currenct location
+- ``initilize(_lat_, _lon_);`` is initializing with coords params.
+- ``getNavGeoLocation();`` is initializing with currenct location.
 
 
 **See [demo]**
