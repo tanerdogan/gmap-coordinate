@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Google MAP API Samples</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="map.js"></script>
+
+    <style>
+        * {
+            padding:0;
+            margin:0 auto;
+            font-family: "Calibri", Verdana;
+            font-size: 12px;
+        }
+
+        #map_canvas{
+            float:left;
+            position: absolute;
+            width:100%;
+            height:100%;
+            background:#DBDBDB;
+            overflow:hidden;
+        }
+        #detail{
+            background: #fff;
+            color: #111;
+            position: absolute;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid #c3c3c3;
+            opacity: .8;
+            right: 0px;
+            top: 20px;
+        }
+        input{
+            border: 1px solid #ccc;
+            padding: 3px 4px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div>
+    <div id="map_canvas"></div>
+    <div id="detail">
+        <label>Adres: </label><br /><input id="address" name="address" style="font-size:12px;" type="text" size="60"/><br />
+        <label>Latitude: </label><br /> <input id="latitude" name="latitude" type="text" size="20" /><br />
+        <label>Longitude: </label><br /> <input id="longitude" name="longitude" type="text" size="20" /><br />
+    </div>
+
+</div>
+<script type="text/javascript">
+    // Eğer konumu bulup oradan başlayacaksan;
+    getNavGeoLocation();
+    // Eğer önceden tanımlı yere gitmek istersen aşağıdaki gibi kullanacaksın;
+    //initialize(37.860000982549025, 32.47180238885494);
+</script>
+</body>
+</html>
